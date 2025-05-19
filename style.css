@@ -1,0 +1,42 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f5ef;
+}
+header {
+  background: #11422c;
+  color: #d8bb6b;
+  text-align: center;
+  padding: 20px;
+}
+.room-view {
+  text-align: center;
+  margin: 20px;
+}
+#room-surface {
+  width: 720px;
+  height: 400px;
+  margin: auto;
+  border: 3px solid #ccc;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.texture-gallery {
+  padding: 20px;
+  text-align: center;
+}
+.texture-gallery h2 {
+  color: #11422c;
+}
+.textures img {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+.textures img:hover {
+  border: 2px solid #c2a145;
+}

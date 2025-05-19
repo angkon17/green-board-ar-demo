@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Green Board AR Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Green Board AR Texture Visualizer</h1>
+  </header>
+  <main>
+    <section class="room-view">
+      <div id="room-surface"></div>
+    </section>
+    <section class="texture-gallery">
+      <h2>Select a Texture</h2>
+      <div class="textures">
+        <img src="assets/burma_teak.jpg" onclick="changeTexture(this.src)">
+        <img src="assets/easy_teak.jpg" onclick="changeTexture(this.src)">
+        <img src="assets/eucalyptus.jpg" onclick="changeTexture(this.src)">
+        <img src="assets/flat_walnut.jpg" onclick="changeTexture(this.src)">
+        <img src="assets/flitch_wenge.jpg" onclick="changeTexture(this.src)">
+        <img src="assets/linear_teak.jpg" onclick="changeTexture(this.src)">
+        <img src="assets/plain_wenge.jpg" onclick="changeTexture(this.src)">
+        <img src="assets/rift_beech.png" onclick="changeTexture(this.src)">
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
